@@ -40,7 +40,7 @@ challenges are basic shell commands:
 ## user2: **40 pts**
 challenges are some c programs exploits:
 
-- funny sigint exersice, see ./some tests/teste.c **15 pts**
+- funny sigint exersice, see <tests/teste.c> **15 pts**
 - program (with user3 privileges) that does a shell command, (privilege escalation) (no flag)
 
 ## user3: **50 pts**
