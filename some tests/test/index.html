@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <script src="index.js"> </script>
+    </head>
+    <body>
+        <h1 id="output"></h1>
+        <input name="echo" id="input">
+        <button onclick="update()">Submit</button>
+        <img src="./important/wizard.gif" alt="">
+        <!--{flag}-->
+        <script>
+            const input = document.getElementById('input');
+            const output = document.getElementById('output');
+
+            function update() { output.innerHTML = input.value; }
+        </script>
+    </body>
+</html>
+
+<!--function sickome(){-->
+<!--    console.log("the flag");-->
+<!--}-->
