@@ -36,6 +36,8 @@ challenges are basic shell commands:
 
 - get acces to user2 with a ssh key (no flag)
 
+- some text somewhere would say kill your self and they must kill a process named yourself **10 pts**
+
 ## user2: **40 pts**
 challenges are some c programs exploits:
 
@@ -45,9 +47,5 @@ challenges are some c programs exploits:
 ## user3: **50 pts**
 challeges are about cryptography:
 
-# git remote repositories:
-has some programming challeges!!!
-each repo has multiple branches with the same content, basically each team has one to where they can push
-they are provided a hash of their 
-
-## 
+~# git remote repositories:~
+~has some programming challeges!!!~
