@@ -66,12 +66,6 @@ challeges are about cryptography:
 
 - a ceasar cypher that needs to be brute forced **10 pts**
 
-- a baufort cypher but instead of a standart table it's the 1st 676 letters of the gnu/linux copypasta **20 pts** 
-```
-i'd just like to interject for a moment. what you're refering to as linux, is in fact, gnu/linux, or as i've recently taken to calling it, gnu plus linux. linux is not an operating system unto itself, but rather another free component of a fully functioning gnu system made useful by the gnu corelibs, shell utilities and vital system components comprising a full os as defined by posix.
-many computer users run a modified version of the gnu system every day, without realizing it. through a peculiar turn of events, the version of gnu which is widely used today is often called linux, and many of its users are not aware that it is basically the gnu system, developed by the gnu project.
-there really is a linux, and these people are using it, but it is just a part of the system they use. linux is the kernel: the program in the system that allocates th
-```
 
 ~# git remote repositories:~
 ~has some programming challeges!!!~
