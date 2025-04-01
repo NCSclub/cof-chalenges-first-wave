@@ -18,7 +18,7 @@ the challenges:
 - a comment in the html code (inspect) **5 pts**
 
 - an article that is a tutorial on how to connect to a SSH server
-    but that dumbass used his actual credentials (gets to the user1) (no flag)
+    but that dumb used his actual credentials (gets to the user1) (no flag)
 
 - a qr code that is missing some pixels, and must be recovered manualy **20 pts**
 
@@ -42,7 +42,6 @@ challenges are basic shell commands:
 - git:
     - git repo with 2 commits, and the 1st commit is the flag **10 pts**
     - the same repo contains another branch which have a flag **10 pts**
-    - in a past commit there's also another flag **10 pts**
 
 - some text somewhere would say kill your self and they must kill a process named yourself **10 pts**
 
@@ -62,10 +61,9 @@ challenges are some binary exploits and micelanious:
 ## user3: **50 pts**
 challeges are about cryptography:
 
-- a feistel stucture cypher alternating between a vignere cypher and a xor cypher (xor the size of the prev vignere key) **30 pts**
+- a feistel stucture cypher alternating between a vignere cypher and a xor cypher **30 pts**
 
-- a ceasar cypher that needs to be brute forced **10 pts**
+- a ceasar cypher that needs to be brute forced (hash of the flag given) **10 pts**
 
-
-~# git remote repositories:~
-~has some programming challeges!!!~
+deep seek's ideas:
+"Syscall Roulette": A binary that randomly picks 1 of 5 syscalls to reveal the flag—you must brute-force the lucky one.
