@@ -13,14 +13,16 @@ the challenges:
 
 - the same image has a flag in the metadata **10 pts**
 
-- the same image has euh lsb steganography thing **15 pts**
+- the same image has euh lsb steganography thing (one flag in each color channel) **15 pts**
 
 - a comment in the html code (inspect) **5 pts**
 
+- a qr code that is missing some pixels, and must be recovered manualy **20 pts**
+
+- a button that adds a query string to the url, and that qeury string is a base64 encrypted string of a flag **20 pts**
+
 - an article that is a tutorial on how to connect to a SSH server
     but that dumb used his actual credentials (gets to the user1) (no flag)
-
-- a qr code that is missing some pixels, and must be recovered manualy **20 pts**
 
 ## ~service website: **30 pts**~
 ~has a login screen with no sign in so the info must come from somewhere else~
@@ -64,6 +66,10 @@ challeges are about cryptography:
 - a feistel stucture cypher alternating between a vignere cypher and a xor cypher **30 pts**
 
 - a ceasar cypher that needs to be brute forced (hash of the flag given) **10 pts**
+
+
+# outside the environment:
+- a youtube video with a flag in the subtitle **5 pts**
 
 deep seek's ideas:
 "Syscall Roulette": A binary that randomly picks 1 of 5 syscalls to reveal the flag—you must brute-force the lucky one.
