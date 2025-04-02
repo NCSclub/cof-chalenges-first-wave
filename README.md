@@ -54,7 +54,7 @@ challeges are about cryptography:
 - **5 pts** simple vignere cypher
 - **5 pts** base64 decode
 - **5 pts** base64 decode then rot13
-- **10 pts** xor cypher but with no key provided or plaintext, only the cyphertext provided (they can guess the key because it will be encrypted with the flag{something} so they can xor the f with the 1st letter of the plain text)
+- **10 pts** xor cypher but with no key provided or plaintext, only the cyphertext provided (they can guess the key because it will be encrypted with the flag{something} so they can xor the f with the 1st letter of the cypher text)
 - **10 pts** a ceasar cypher that needs to be brute forced (hash of the flag given)
 - **30 pts** a feistel stucture cypher alternating between a vignere cypher and a xor cypher
 
