@@ -46,12 +46,14 @@ challenges are some binary exploits and micelanious:
 - **15 pts** funny sigint exersice, see <tests/teste.c>
 - **20 pts** somewhere again a seed must be found, and that seed must be passed through euh rand function 20 times, and that would be the flag
 - **20 pts** "Syscall Roulette": A binary that randomly picks 1 of 5 syscalls to reveal the flag—you must brute-force the lucky one.
+- **20 pts** broken epub file, flag hidden in content
 - program (with user3 privileges) that does a shell command, (privilege escalation) (no flag)
 
 ## user3: **50 pts**
 challeges are about cryptography:
 
 - **5 pts** simple vignere cypher
+- **5 pts** simple rot13
 - **5 pts** base64 decode
 - **5 pts** base64 decode then rot13
 - **10 pts** xor cypher but with no key provided or plaintext, only the cyphertext provided (they can guess the key because it will be encrypted with the flag{something} so they can xor the f with the 1st letter of the cypher text)
