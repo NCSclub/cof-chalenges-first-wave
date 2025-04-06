@@ -9,35 +9,39 @@
 - **20 pts** a qr code that is missing some pixels, and must be recovered manualy
 - **20 pts** an event that triggers euh adds a query string to the url, and that qeury string is a base64 encrypted string of a flag
 - **10 pts** a image with diffrent colors and the flag is the hex value of the color converted to ascci (each 2 digit of the code is one char)
-- an article that is a tutorial on how to connect to a SSH server but that dumb used his actual credentials (gets to the user1) (no flag)
 
 # linux shell
-- **5 pts** just 'cat' a file named 'flag' i guess
-- **10 pts** git repo with 2 commits, and the 1st commit is the flag
-- **10 pts** the same repo contains another branch which have a flag
-- **10 pts** some text somewhere would say kill yourself and they must kill a process named yourself
+- **2 pts** just 'cat' a file named 'flag' i guess
 - **10 pts** have a file with a long list of strings, and the participant have to find one string (the flag) that has flag{.*}
 - **15 pts** a dictionary (file with words) is provided and the flag is a combination of 3 of them words, a hash of the flag to find is provided also. the goal is to brute force the flag
 - **15 pts** check for open ports and find an unusual port that is listening, is a http server that gives a flag with a simple get request
-- **5 pts** that same http server gives another flag when sent a post request
-- **5 pts** that same http server gives another flag when sent a get request with specific vales on the request headers
+~- **10 pts** some text somewhere would say kill yourself and they must kill a process named yourself~
+~- **5 pts** that same http server gives another flag when sent a post request~
+~- **5 pts** that same http server gives another flag when sent a get request with specific vales on the request headers~
+## git:
+- **5 pts** git repo with 2 commits, and the 1st commit is the flag
+- **5 pts** the same repo contains another branch which have a flag
+## grep/regex:
 - **20 pts** have a file with a long list of strings, and the participant have to find one string (the flag) that has a specific pattern
 - **20 pts** have a file with the flag but it is altered so the exercise is to search and remplace a certain pattern in the key
 
 # pwn:
-- **15 pts** funny sigint exersice, see <tests/teste.c>
-- **20 pts** somewhere again a seed must be found, and that seed must be passed through euh rand function 20 times, and that would be the flag
-- **20 pts** "Syscall Roulette": A binary that randomly picks 1 of 5 syscalls to reveal the flag—you must brute-force the lucky one.
+- **20 pts** seed must be found, and that seed must be passed through euh rand function 20 times, and that would be the flag
 
 # forensic:
 - **20 pts** broken epub file, flag hidden in content
 
+# miscs:
+- **15 pts** funny sigint exersice, see <tests/teste.c>
+- **20 pts** "Syscall Roulette": A binary that randomly picks 1 of 5 syscalls to reveal the flag you must brute force the lucky one
+
 # crypto
 - **5 pts** simple vignere cypher
 - **5 pts** simple rot13
-- **5 pts** base64 decode
-- **5 pts** base64 decode then rot13
-- **10 pts** xor cypher but with no key provided or plaintext, only the cyphertext provided (they can guess the key because it will be encrypted with the flag{something} so they can xor the f with the 1st letter of the cypher text)
+- **5 pts** base64 encode
+- **5 pts** base64 encode then rot13
+- **10 pts** xor cypher but with no key provided or plaintext, (known plaintext attack)
+- **10 pts** a program that does an unspecified cypher to any input text, and a cyphertext of the flag is provided (chosen plaintext attack)
 - **10 pts** a ceasar cypher that needs to be brute forced (hash of the flag given)
 - **30 pts** a feistel stucture cypher alternating between a vignere cypher and a xor cypher
 
