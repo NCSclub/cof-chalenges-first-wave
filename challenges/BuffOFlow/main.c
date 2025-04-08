@@ -6,5 +6,5 @@ int main() {
 
    scanf("%7s", &blobloblo);
 
-   if(blablabla == 97) puts("cof{proud_of_you}");
+   if(blablabla == 97) puts("<flag>");
 }
