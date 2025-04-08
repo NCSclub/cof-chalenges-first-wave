@@ -10,4 +10,4 @@ P = (0x49fbc7859bbca537ebbd0cbefb2cb529c04821df15c72c87cdacc7e77892ff5b  ,0xb0f1
 Task: Derive the shared secret by multiplying P with your private key.
 Then hash the shared secret's x-coordinate to get the flag.
 the hash used is SHA-256.
-The flag is in the format: COF{first_16_chars_of_hash}. 
+ 

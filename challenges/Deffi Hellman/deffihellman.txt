@@ -1,0 +1,7 @@
+Deffi Helman :
+p = 17
+g = 2. 
+A = 194
+B = 118
+the hash used is SHA-256
+ 
