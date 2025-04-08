@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>
-char* messages[] = {" Hey! don't do that again", " Stop", " If you keep doing that...", " You got me here is the key"};
+char* messages[] = {" don't do that", " Stop", " No", " cof{ju5T_5t0p_m4N}"};
 int i = 0;
 void catchsig(){ puts(messages[i++]); if(!(4-i)) exit(0); }
 int main(int argc, char *argv[]) {

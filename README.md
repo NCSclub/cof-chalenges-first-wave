@@ -35,10 +35,12 @@
 - **20 pts** "Syscall Roulette": A binary that randomly picks 1 of 5 syscalls to reveal the flag you must brute force the lucky one
 
 # crypto
-- **5 pts** simple vignere cypher
-- **5 pts** simple rot13
-- **5 pts** base64 encode
-- **5 pts** base64 encode then rot13
+- **05 pts** simple vignere cypher
+- **05 pts** simple rot13
+- **05 pts** base64 encode
+- **05 pts** base64 encode then rot13
+- **05 pts** simple rsa with small keys
+- **05 pts** 
 - **10 pts** xor cypher but with no key provided or plaintext, (known plaintext attack)
 - **10 pts** a program that does an unspecified cypher to any input text, and a cyphertext of the flag is provided (chosen plaintext attack)
 - **10 pts** a ceasar cypher that needs to be brute forced (hash of the flag given)
