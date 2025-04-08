@@ -15,12 +15,10 @@
 - **15 pts** a dictionary (file with words) is provided and the flag is a combination of 3 of them words, a hash of the flag to find is provided also. the goal is to brute force the flag
 - **15 pts** check for open ports and find an unusual port that is listening, is a http server that gives a flag with a simple get request
 
-~- **10 pts** some text somewhere would say kill yourself and they must kill a process named yourself~
-~- **5 pts** that same http server gives another flag when sent a post request~
-~- **5 pts** that same http server gives another flag when sent a get request with specific vales on the request headers~
 ## git:
 - **5 pts** git repo with 2 commits, and the 1st commit is the flag
 - **5 pts** the same repo contains another branch which have a flag
+
 ## grep/regex:
 - **10 pts** have a file with a long list of strings, and the participant have to find one string (the flag) that has flag{.*}
 - **20 pts** have a file with a long list of strings, and the participant have to find one string (the flag) that has a specific pattern
@@ -44,6 +42,7 @@
 - **10 pts** xor cypher but with no key provided or plaintext, (known plaintext attack)
 - **10 pts** a program that does an unspecified cypher to any input text, and a cyphertext of the flag is provided (chosen plaintext attack)
 - **10 pts** a ceasar cypher that needs to be brute forced (hash of the flag given)
-- **30 pts** a feistel stucture cypher alternating between a vignere cypher and a xor cypher
+- **25 pts** a feistel stucture cypher alternating between a vignere cypher and a xor cypher
+- ** pts**
 
 # reverse engineering
