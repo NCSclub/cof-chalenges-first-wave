@@ -1,0 +1,13 @@
+Elliptic Curve:
+secp256k1
+Generator Point (G) used
+
+Your private key (x): 773
+Sender’s public key (P): 773 * G  (but we give you the actual point below)
+
+P = (0x49fbc7859bbca537ebbd0cbefb2cb529c04821df15c72c87cdacc7e77892ff5b  ,0xb0f1a8a87948a2a2f1248d8a1617468ed3c88cf1a8b2b377af018183e7c34ee3 )   
+
+Task: Derive the shared secret by multiplying P with your private key.
+Then hash the shared secret's x-coordinate to get the flag.
+the hash used is SHA-256.
+The flag is in the format: COF{first_16_chars_of_hash}. 
