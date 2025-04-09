@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secret Query Event</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+
+    button {
+      padding: 12px 24px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Click the Button for a Surprise</h1>
+  <button onclick="reveal()">Click Me</button>
+
+  <script>
+    function reveal() {
+      const flag = "cof{javascript_better_than_php}";
+      // euuh hadi bel 64 encoding ma ndirch bel php tu vas rien faire
+      const encoded = btoa(flag); 
+      const currentUrl = window.location.origin + window.location.pathname;
+      const newUrl = `${currentUrl}?data=${encoded}`;
+      window.history.pushState({}, "", newUrl);
+    }
+  </script>
+
+</body>
+</html>
