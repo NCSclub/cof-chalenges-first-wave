@@ -3,9 +3,24 @@ services:
   Buff0Flow:
     build: ./pwn/BuffOFlow/
     ports:
-      - "9001:3000"
+      - "9000:3000"
 
   into-ver-flow:
     build: ./pwn/into_ver_flow/
     ports:
+      - "9001:3000"
+
+  si-gint:
+    build: ./misc/si_gint/
+    ports:
       - "9002:3000"
+
+  visage:
+    build: ./misc/visage/
+    ports:
+      - "9003:3000"
+
+  web_2:
+    build: ./web/web_2/
+    ports:
+      - "9004:3000"
