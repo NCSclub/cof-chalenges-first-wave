@@ -6,10 +6,11 @@ RUN apt-get update && \
     sudo \
     && rm -rf /var/lib/apt/lists/*
 
-RUN mkdir /var/run/sshd && \
-    sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin no/' && \
-    sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config && \
-    sed -i 's/UsePAM no/UsePAM yes/' /etc/ssh/sshd_config
+RUN mkdir /var/run/sshd 
+
+RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin no/' /etc/ssh/sshd_config
+RUN sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config
+RUN sed -i 's/UsePAM no/UsePAM yes/' /etc/ssh/sshd_config
 
 RUN useradd -m -s /bin/bash kitten &&\
     echo "kitten:ncscofctfssh0" | chpasswd 
