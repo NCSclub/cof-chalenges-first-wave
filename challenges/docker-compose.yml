@@ -1,6 +1,7 @@
 version: "3"
 services:
-  Buff0Flow:
+  # bin
+  buffoflow:
     build: ./pwn/BuffOFlow/
     ports:
       - "9000:3000"
@@ -10,6 +11,7 @@ services:
     ports:
       - "9001:3000"
 
+  # miscs
   si-gint:
     build: ./misc/si_gint/
     ports:
@@ -20,7 +22,29 @@ services:
     ports:
       - "9003:3000"
 
+    # web
   web_2:
     build: ./web/web_2/
     ports:
       - "9004:3000"
+
+    #shell
+  kitten:
+    build: ./shell/kitten/
+    ports:
+      - "9005:3000"
+
+  findme:
+    build: ./shell/find-me/
+    ports:
+      - "9006:3000"
+
+  sedme:
+    build: ./shell/sed-me/
+    ports:
+      - "9007:3000"
+
+  huntme:
+    build: ./shell/hunt-me/
+    ports:
+      - "9008:3000"
