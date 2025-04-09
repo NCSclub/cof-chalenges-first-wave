@@ -1,0 +1,11 @@
+version: "3"
+services:
+  Buff0Flow:
+    build: ./pwn/BuffOFlow/
+    ports:
+      - "9001:3000"
+
+  into-ver-flow:
+    build: ./pwn/into_ver_flow/
+    ports:
+      - "9002:3000"
