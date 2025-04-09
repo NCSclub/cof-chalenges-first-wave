@@ -3,7 +3,7 @@
 - **5 pts** image displayed in an article is stored in a directory that itself contains a text file (flag)
 - **5 pts** the same image has a flag in the metadata
 - **10 pts** also a text is hidden IN the image, when you play with the lightning and contrast
-- **10 pts** an image of an old screenshot of the website, showing a section that is not accessible now (sections are accessible with string queries so should manualy enter the string query)
+- **10 pts** an image of an old screenshot of the website, showing a section that is not accessible now (sections are accessible with string queries so should manually enter the string query)
 - **15 pts** the same image has euh lsb steganography thing (one flag in each color channel)
 - **15 pts** a flag hidden in the cookies of the session (have to go lookup the euh webtools of the browser)
 - **20 pts** a qr code that is missing some pixels, and must be recovered manualy
