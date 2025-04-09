@@ -1,7 +1,7 @@
 version: "3"
 services:
   # bin
-  Buff0Flow:
+  buffoflow:
     build: ./pwn/BuffOFlow/
     ports:
       - "9000:3000"
@@ -35,16 +35,16 @@ services:
       - "9005:3000"
 
   findme:
-    build: ./shell/find/
+    build: ./shell/find-me/
     ports:
       - "9006:3000"
 
   sedme:
-    build: ./shell/sedme/
+    build: ./shell/sed-me/
     ports:
       - "9007:3000"
 
   huntme:
-    build: ./shell/huntme/
+    build: ./shell/hunt-me/
     ports:
       - "9008:3000"
