@@ -1,0 +1,6 @@
+We have encrypted the flag using an XOR cipher, 
+but we won’t tell you the key!
+Here is the ciphertext (hex-encoded)
+
+Encrypted message:
+"2d2632352e3311303b3b1633213d0b273d29"

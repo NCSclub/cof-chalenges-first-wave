@@ -1,0 +1,5 @@
+Encrypted message:
+"cGdze0FoenZxdm5fVmFmZ3ZnaGdyX2JzX0dycHVhYnlidGx9"
+
+Hint: 64 => 13 => text
+Flag Format: cof{plaintext_here}

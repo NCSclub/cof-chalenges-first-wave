@@ -1,0 +1,8 @@
+The flag has been encrypted using a Caesar cipher, where the shift is unknown.
+We’ve also given you the SHA256 hash of the flag.
+SHA-256 Hash: 1850aa33df8ec5319768952f35cd7c86fdb63809d741096d66678759386a0e4e
+
+the encrypted text:
+ftq_eqodqf_eqzfqzoq
+
+Flag Format: plaintext_here

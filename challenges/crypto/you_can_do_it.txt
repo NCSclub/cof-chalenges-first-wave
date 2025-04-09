@@ -1,0 +1,5 @@
+Encrypted message:
+"pgs{pbqr uneq, qernz ovt}"
+
+Hint: 13
+Flag Format: cof{plaintext_here}

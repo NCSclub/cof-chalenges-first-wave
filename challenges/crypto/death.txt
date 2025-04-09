@@ -1,0 +1,10 @@
+We have implemented a custom Feistel cipher that alternates between:
+
+A Vigenère cipher with the key "SSH"
+
+A Vigenère cipher with the key "HTTP"
+
+The encrypted flag is (in hexa):
+c5ddebe4d6dbccf3d2995e6e7a785b7961175f90
+
+Flag format: cof{plain_text}

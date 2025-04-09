@@ -1,0 +1,6 @@
+Encrypted message:
+"ECK{HMG_KKFXV_HNOXJ_TH_KNOLU}"
+
+Key: "COF"
+Hint: This cipher uses a repeating key to encrypt the text.
+Flag Format: cof{plaintext_here}
