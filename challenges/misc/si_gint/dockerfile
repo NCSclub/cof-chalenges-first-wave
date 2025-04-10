@@ -20,6 +20,7 @@ WORKDIR /home/sigint/
 COPY challenge/ .
 
 RUN chown sigint:sigint * && chmod 400 *
+RUN chmod +x ./challenge
 
 EXPOSE 22
 
