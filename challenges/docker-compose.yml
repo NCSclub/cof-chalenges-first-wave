@@ -48,4 +48,4 @@ services:
   si-gint:
     build: ./misc/si_gint/
     ports:
-      - "9002:3000"
+      - "9009:3000"
