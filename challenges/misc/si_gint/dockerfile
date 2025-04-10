@@ -12,14 +12,14 @@ RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin no/' /etc/ssh/s
 RUN sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config
 RUN sed -i 's/UsePAM no/UsePAM yes/' /etc/ssh/sshd_config
 
-RUN useradd -m -s /bin/bash siGint &&\
-    echo "siGint:ncscofctfssh5" | chpasswd 
+RUN useradd -m -s /bin/bash sigint &&\
+    echo "sigint:ncscofctfssh5" | chpasswd 
 
-WORKDIR /home/siGint/
+WORKDIR /home/sigint/
 
 COPY challenge/ .
 
-RUN chown siGint:siGint * && chmod 400 *
+RUN chown sigint:sigint * && chmod 400 *
 
 EXPOSE 22
 
