@@ -12,7 +12,6 @@ services:
       - "9001:3000"
 
   # miscs
-
   visage:
     build: ./misc/visage/
     ports:
@@ -24,6 +23,10 @@ services:
     ports:
       - "9004:3000"
 
+  web_7:
+    build: ./web/web_7(query)/
+    ports:
+      - "9002:3000"
     #shell
   kitten:
     build: ./shell/kitten/

@@ -24,11 +24,8 @@
 
   <script>
     function reveal() {
-      const flag = "cof{javascript_better_than_php}";
-      // euuh hadi bel 64 encoding ma ndirch bel php tu vas rien faire
-      const encoded = btoa(flag); 
-      const currentUrl = window.location.origin + window.location.pathname;
-      const newUrl = `${currentUrl}?data=${encoded}`;
+      const xtal = "Y29me2phdmFzY3JpcHRfYmV0dGVyX3RoYW5fcGhwfQo=";
+      const newUrl = `${currentUrl}?data=${xtal}`;
       window.history.pushState({}, "", newUrl);
     }
   </script>
