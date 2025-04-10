@@ -12,10 +12,6 @@ services:
       - "9001:3000"
 
   # miscs
-  si-gint:
-    build: ./misc/si_gint/
-    ports:
-      - "9002:3000"
 
   visage:
     build: ./misc/visage/
@@ -32,19 +28,24 @@ services:
   kitten:
     build: ./shell/kitten/
     ports:
-      - "9005:3000"
+      - "9005:22"
 
   findme:
     build: ./shell/find-me/
     ports:
-      - "9006:3000"
+      - "9006:22"
 
   sedme:
     build: ./shell/sed-me/
     ports:
-      - "9007:3000"
+      - "9007:22"
 
   huntme:
     build: ./shell/hunt-me/
     ports:
-      - "9008:3000"
+      - "9008:22"
+
+  si-gint:
+    build: ./misc/si_gint/
+    ports:
+      - "9002:3000"

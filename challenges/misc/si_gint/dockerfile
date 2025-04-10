@@ -1,0 +1,26 @@
+FROM ubuntu:22.04
+
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+    openssh-server \
+    sudo \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir /var/run/sshd 
+
+RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin no/' /etc/ssh/sshd_config
+RUN sed -i 's/#PasswordAuthentication yes/PasswordAuthentication yes/' /etc/ssh/sshd_config
+RUN sed -i 's/UsePAM no/UsePAM yes/' /etc/ssh/sshd_config
+
+RUN useradd -m -s /bin/bash siGint &&\
+    echo "siGint:ncscofctfssh5" | chpasswd 
+
+WORKDIR /home/siGint/
+
+COPY challenge/ .
+
+RUN chown siGint:siGint * && chmod 400 *
+
+EXPOSE 22
+
+CMD ["/usr/sbin/sshd", "-D", "-e"]
